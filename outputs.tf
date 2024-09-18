@@ -1,3 +1,3 @@
 output "web-server-ip" {
-  value = aws_instance.hello_world.public_ip
+  value = aws_instance.customer_endpoint.public_ip
 }
