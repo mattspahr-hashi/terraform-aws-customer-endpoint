@@ -1,3 +1,9 @@
+provider "aws" {
+  region = "us-east-2"
+}
+
+provider "hcp" {}
+
 data "hcp_packer_artifact" "hello-world" {
   bucket_name  = "hello-world"
   channel_name = "latest"
