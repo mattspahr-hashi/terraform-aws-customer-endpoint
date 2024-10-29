@@ -18,6 +18,7 @@ resource "aws_instance" "customer_endpoint" {
 
   tags = {
     Name = var.customer_name
+    Env  = var.env
   }
 }
 
