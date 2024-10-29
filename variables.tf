@@ -7,3 +7,8 @@ variable "customer_name" {
   type        = string
   description = "Customer Name"
 }
+
+variable "env" {
+  type        = string
+  description = "Environment"
+}
